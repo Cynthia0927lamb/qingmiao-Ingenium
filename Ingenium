@@ -30,7 +30,6 @@
             z-index: -1;
         }
         
-        /* 顶部导航栏 - 青苗中学风格 */
         .main-nav {
             background: linear-gradient(135deg, #0a4d4d 0%, #1d7373 100%);
             box-shadow: 0 4px 20px rgba(0, 80, 80, 0.15);
@@ -274,7 +273,6 @@
             transform: translateY(-50%) scale(1.05);
         }
         
-        /* 版头主要内容 */
         .banner-main {
             flex: 1;
             display: flex;
@@ -300,7 +298,6 @@
             opacity: 0.95;
         }
         
-        /* 主要内容区域 */
         main {
             max-width: 1200px;
             margin: 50px auto;
@@ -470,7 +467,6 @@
             border-bottom-color: #1d7373;
         }
         
-        /* 页脚 */
         footer {
             background-color: rgba(10, 77, 77, 0.95);
             color: white;
@@ -531,7 +527,6 @@
             opacity: 0.8;
         }
         
-        /* 文章页面样式 */
         .article-page, .doctor-page, .search-results-page, .search-detail-page {
             max-width: 900px;
             margin: 50px auto;
@@ -602,7 +597,6 @@
             color: white;
         }
         
-        /* 搜索结果页面 */
         .search-header {
             margin-bottom: 40px;
             padding-bottom: 20px;
@@ -688,7 +682,6 @@
             text-decoration: underline;
         }
         
-        /* 医生详情页面样式 */
         .doctor-header {
             margin-bottom: 40px;
             padding-bottom: 20px;
@@ -737,7 +730,6 @@
             font-size: 18px;
         }
         
-        /* 搜索详情页面样式 */
         .search-detail-content {
             padding: 30px;
             background-color: #f8fdfc;
@@ -776,7 +768,6 @@
             font-size: 18px;
         }
         
-        /* 图片响应式样式 */
         .article-image-container {
             margin: 20px 0;
             text-align: center;
@@ -801,7 +792,6 @@
             font-size: 14px;
         }
         
-        /* 响应式设计 */
         @media (max-width: 1200px) {
             .nav-menu {
                 padding: 0 10px;
@@ -994,10 +984,8 @@
     </nav>
     
     <div class="header-banner">
-        <!-- 背景图片 -->
         <img id="bannerBg" class="banner-background" src="https://i.imgs.ovh/2025/12/18/CEd86X.png" alt="医院背景">
         
-        <!-- 遮罩层 -->
         <div id="bannerOverlay" class="banner-overlay"></div>
         <div class="header-content">
             <div class="header-top">
@@ -1549,7 +1537,6 @@
 
         ];
         
-        // 导航栏交互效果
         document.querySelectorAll('.nav-item').forEach(item => {
             item.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -1568,8 +1555,7 @@
                 }
             });
         });
-        
-        // 通知公告点击效果 - 跳转到完整文章
+
         document.querySelectorAll('.detail-link').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -1746,3 +1732,4 @@
     </script>
 </body>
 </html>
+
